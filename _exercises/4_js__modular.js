@@ -22,12 +22,19 @@
 
 /* independent gallery function */
 
-function gallery() {
+function gallery(index) {
+    this.gallery = $('.gallery');
 
+    // event handler für aktiveren eines Elementes
+    this.gallery.on('slide.change', function (e, active) { $(this).find('li').eq(active).addClass('active');
+    });
+
+    // dispatch event
+    this.gallery.trigger('slide.change', [index]);
 }
-
+// beide Elemente sind unabhängig von einender!
 /* independent pagination function */
 
-function pagination() {
+function pagination(index) {
 
 }

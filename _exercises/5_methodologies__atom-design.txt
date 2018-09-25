@@ -7,5 +7,21 @@ template example available to us. List them in a manner that makes sense to
 you:
 
 ##### list potential molecules
-
+- search
+- My Account
+- Warenkorb
+- Navigation
+- Title (Atom)
+- image box (Atom)
+- item
+- quicklinks
+- announcement
+- coming soon
+- copyright
+- support
 ##### list potential organisms
+- header
+- description block
+- item gallery
+- feature box
+- footer

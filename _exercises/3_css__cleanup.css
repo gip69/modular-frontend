@@ -1,0 +1,41 @@
+/*
+Syntax error: Invalid CSS after "h1": expected "{", was ""
+        on line 46 of 3_css__cleanup.scss
+
+41:     font-size: 12px;
+42: }
+43: 
+44: 
+45: h1
+
+Backtrace:
+3_css__cleanup.scss:46
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:1134:in `expected'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:1072:in `expected'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:1067:in `tok!'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:522:in `block'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:541:in `block_child'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:534:in `block_contents'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:70:in `stylesheet'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/scss/parser.rb:27:in `parse'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/engine.rb:342:in `_to_tree'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/exec.rb:424:in `watch_or_update'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/exec.rb:307:in `process_result'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/exec.rb:41:in `parse'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/lib/sass/exec.rb:21:in `parse!'
+/Users/pascal/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5/bin/scss:8:in `<top (required)>'
+/Users/pascal/.rbenv/versions/2.2.1/bin/scss:23:in `load'
+/Users/pascal/.rbenv/versions/2.2.1/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"h1\": expected \"{\", was \"\"\A         on line 46 of 3_css__cleanup.scss\A \A 41:     font-size: 12px;\A 42: }\A 43: \A 44: \A 45: h1"; }
